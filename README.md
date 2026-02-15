@@ -1,14 +1,13 @@
 # ⚡ Khamba Game: The Great Pole Heist
 
-![Game Banner](https://via.placeholder.com/800x400?text=Khamba+Game+Preview)
-*(Note: Replace the link above with a screenshot of your actual game once uploaded)*
+![Game Banner](img/logo.png)
 
 **Khamba Game** is a satirical, fast-paced infinite runner built entirely with **Vanilla JavaScript** and the **HTML5 Canvas API**. 
 
 Step into the shoes of a determined man on a bizarre mission: steal as many Electric Poles ("Khamba") as possible while dodging speeding police cars. How long can you run before you get BUSTED?
 
 ## 🎮 Play Online
-**[Click here to play the demo!] (INSERT_YOUR_GITHUB_PAGES_LINK_HERE)**
+**[Click here to play the demo!]([INSERT_YOUR_GITHUB_PAGES_LINK_HERE](https://khamba-game-ebon.vercel.app/))**
 
 ## ✨ Features
 * **Infinite Gameplay:** The game speed increases the longer you survive.
@@ -33,7 +32,7 @@ Step into the shoes of a determined man on a bizarre mission: steal as many Elec
 ```text
 khamba-game/
 ├── img/
-│   └── logo.png       # Favicon
+│   └── logo.png       # Game Banner / Favicon
 ├── index.html         # Main entry point
 ├── script.js          # Game loop and logic
 ├── style.css          # Styling and responsiveness
