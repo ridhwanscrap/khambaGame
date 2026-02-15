@@ -7,7 +7,7 @@
 Step into the shoes of a determined man on a bizarre mission: steal as many Electric Poles ("Khamba") as possible while dodging speeding police cars. How long can you run before you get BUSTED?
 
 ## 🎮 Play Online
-**[Click here to play the demo!]([INSERT_YOUR_GITHUB_PAGES_LINK_HERE](https://khamba-game-ebon.vercel.app/))**
+**[Click here to play the demo!](https://khamba-game-ebon.vercel.app/)**
 
 ## ✨ Features
 * **Infinite Gameplay:** The game speed increases the longer you survive.
