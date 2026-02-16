@@ -55,8 +55,11 @@ window.addEventListener('keyup', function (e) {
     keys[e.code] = false;
 });
 
-// Mobile Touch Support
-canvas.addEventListener('touchstart', function(e) {
+// Mobile Touch Support (UPDATED: Listen on 'document' to detect taps anywhere)
+document.addEventListener('touchstart', function(e) {
+    // Prevent jump if the user is tapping the "Run Again" button
+    if (e.target.closest('button')) return;
+
     e.preventDefault(); // Prevents scrolling
     if (player.grounded && gameRunning) {
         jump();
@@ -232,7 +235,7 @@ function drawCharacter() {
     ctx.fillStyle = charColors.skin;
     ctx.beginPath(); ctx.ellipse(27.5, 10, 18, 15, 0, 0, Math.PI * 2); ctx.fill();
 
-    // --- NEW THIN HAIR CODE ---
+    // --- THIN HAIR CODE ---
     ctx.fillStyle = charColors.hair;
     ctx.beginPath();
     // Start at left temple (receding)
